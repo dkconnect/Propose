@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: fuchsia;
+}
+#whole{
+    border: 3px solid black;
+    padding: 60px;
+    display: inline-block;
+    background: #3c3c3c;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.5);
+    position: relative;
+}
+h1{
+    color: palevioletred;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 2.5);
+    font-weight: bold;
+    font-style:oblique
+}
+button{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1.5);
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+#dialog{
+    color: antiquewhite;
+    font-weight: bold;
+    display: none;
+}
+#yeah{
+    background-color: lightgreen;
+    left: 50px;
+}
+#nope{
+    background-color: lightcoral;
+    position: absolute;
+}
